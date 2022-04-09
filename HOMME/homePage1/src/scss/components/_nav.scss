@@ -1,0 +1,47 @@
+.nav,
+.nav__logo,
+.menu {
+	height: 55px;
+	align-items: center;
+	display: flex;
+	width: 100%;
+}
+
+.nav {
+	justify-content: space-between;
+	gap: 55px;
+	position: fixed;
+	z-index: 100;
+	color: currentcolor;
+
+	&__logoMenu {
+		justify-content: center;
+		position: absolute;
+		top: 0;
+	}
+
+	&__menuIcon {
+		transform: translateX(25px);
+	}
+
+	&__logo {
+		font-weight: 700;
+		font-size: 1.5em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu {
+		justify-content: space-around;
+		transform: translateY(-100%);
+		background-color: beige;
+		color: black;
+		position: absolute;
+		top: 0;
+		transition: 0.9s ease-in-out;
+
+		&--active {
+			transform: translateY(0);
+		}
+	}
+}

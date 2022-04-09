@@ -1,0 +1,56 @@
+/* HOME-UP & CHILD */
+
+.home-up__describtion,
+.home-up__image {
+  width: 100%;
+  height: 360px;
+}
+
+.home-up__image {
+  background-image: url('./src/images/mobile-image-hero-1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%, contain;
+  transition: background-image 1s;
+}
+
+.home-up__describtion {
+  padding: 2.3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+  transition: 1s ease-in-out;
+}
+
+.home-up__title {
+  font-size: 1.5rem;
+  color: rgb(250, 235, 215);
+}
+
+.home-up__text {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.home-up__link {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link--text {
+  font-size: 1.2rem;
+}
+
+.link--arrow {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.link--arrow svg > path {
+  fill: wheat;
+}

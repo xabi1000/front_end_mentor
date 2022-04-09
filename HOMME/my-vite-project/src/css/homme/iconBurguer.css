@@ -1,0 +1,30 @@
+.nav-icon__menu {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+.nav-icon__menu::after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: -9px;
+}
+.nav-icon__menu::before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  bottom: -9px;
+}
+
+.nav-icon__menu--active {
+  transform: rotate(90deg);
+}

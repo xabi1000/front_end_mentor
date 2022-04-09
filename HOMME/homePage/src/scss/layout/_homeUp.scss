@@ -1,0 +1,50 @@
+.homeUp {
+	&__describtion,
+	&__image {
+		width: 100%;
+		height: 360px;
+	}
+	&__image {
+		background-image: url('./src/images/mobile-image-hero-1.jpg');
+		background-repeat: no-repeat;
+		background-size: 100% 100%, contain;
+		transition: background-image 1s;
+	}
+	&__describtion {
+		padding: 2.3rem 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		gap: 15px;
+		transition: 1s ease-in-out;
+	}
+	&__title {
+		font-size: 1.5rem;
+		color: rgb(250, 235, 215);
+	}
+	&__text {
+		font-size: 1rem;
+		color: #fff;
+	}
+	&__link {
+		width: 50%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.link--text {
+		font-size: 1.2rem;
+	}
+	.link--arrow {
+		width: 55px;
+		display: flex;
+		justify-content: center;
+		cursor: pointer;
+		svg {
+			& > path {
+				fill: wheat;
+			}
+		}
+	}
+}

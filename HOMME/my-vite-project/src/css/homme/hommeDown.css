@@ -1,0 +1,40 @@
+/* 'HOMME-DOWN' & CHILD */
+
+.home-down__left,
+.home-down__center,
+.home-down__rigth {
+  height: 361px;
+  width: 100%;
+}
+
+.home-down__left {
+  background-image: url('./src/images/image-about-dark.jpg');
+}
+
+.home-down__rigth {
+  background-image: url('./src/images/image-about-light.jpg');
+}
+
+.home-down__rigth,
+.home-down__left {
+  background-repeat: no-repeat;
+  background-size: 100% 100%, contain;
+}
+
+.home-down__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0 1.5rem;
+  font-size: 0.9rem;
+}
+
+.home-down__title {
+  font-size: 1.5rem;
+  color: rgb(250, 235, 215);
+}
+.home-down__text {
+  color: #fff;
+  font-size: 1.2rem;
+}
